@@ -3,9 +3,8 @@
 
 {{cookiecutter.description}}
 
-<details><summary>Project Organization<summary>
+<details><summary>Project Organization</summary>
 
-------------
     ├── .env               <- Environment variable that can be parsed by `python-dotenv` package.
     ├── .gitignore         <- Files you DO NOT want to put into source control.
     ├── LICENSE
@@ -56,6 +55,5 @@
 
 </details>
 
---------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
