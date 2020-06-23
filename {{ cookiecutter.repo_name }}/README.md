@@ -3,7 +3,8 @@
 
 {{cookiecutter.description}}
 
-Project Organization
+<details><summary>Project Organization<summary>
+
 ------------
     ├── .env               <- Environment variable that can be parsed by `python-dotenv` package.
     ├── .gitignore         <- Files you DO NOT want to put into source control.
@@ -53,6 +54,7 @@ Project Organization
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
+</details>
 
 --------
 
