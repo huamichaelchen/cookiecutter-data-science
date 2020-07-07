@@ -7,8 +7,6 @@
 
     ├── .env               <- Environment variable that can be parsed by `python-dotenv` package.
     ├── .gitignore         <- Files you DO NOT want to put into source control.
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
     │   ├── external       <- Data from third party sources.
@@ -29,11 +27,10 @@
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
     │   └── figures        <- Generated graphics and figures to be used in reporting
     │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
     ├── environment.yml    <- A declarative way to reproduce or set up Conda python environment.
     │
     ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
+    ├── scripts            <- All other helper Bash or PowerShell scripts
     ├── src                <- Source code for use in this project.
     │   ├── __init__.py    <- Makes src a Python module
     │   │
@@ -47,11 +44,20 @@
     │   │   │                 predictions
     │   │   ├── predict_model.py
     │   │   └── train_model.py
+    |   ├── mssql          <- Any SQL Stored Procedures, Queries files
+    |   |   |
+    |   |   └── sample.sql
     │   │
+    |   ├── tests          <- Any Unit Test, Mock Test and Test configuration files
+    |   |   |
+    |   |   ├── conftest.py
+    |   |   ├── mock_test.py
+    |   |   └── unit_test.py
+    |   | 
     │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
     │       └── visualize.py
     │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+    └── config.ini            <- Config file to store SQL connection strings
 
 </details>
 
